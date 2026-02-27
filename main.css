@@ -1,0 +1,187 @@
+.jersey-10-regular {font-family: 'Jersey 10', sans-serif;font-weight: 400;font-style: normal;}
+.tiny5-regular {font-family: 'Tiny5', sans-serif;font-weight: 400;font-style: normal;}
+.pixelify-sans {font-family: 'Pixelify Sans', sans-serif;font-optical-sizing: auto;font-weight: 400;font-style: normal;}
+.google-sans {font-family: 'Google Sans', sans-serif;font-optical-sizing: auto;font-weight: 400;font-style: normal;}
+
+@media (min-width: 1024px) {
+
+  body {padding: 0;margin: 0;overflow-x: hidden;background-color: hsl(0, 0%, 5%); zoom: 80%;}
+
+  #port-box-primary {background-color: transparent;height: 14rem;width: 40rem;margin-left: 2rem;display: flex;}
+  #port-box-primary-avatar {height: 11rem; width: 11rem;transition: transform 0.3s ease;background-color: hsl(0, 0%, 9%);z-index: 100; border-radius: 10px; flex-shrink: 0; display: flex; justify-content: center; align-items: center; transition: background-color 0.3s ease;}
+  #port-box-primary-main-tag {border-radius: 10px; height: 5rem;width: 20.2rem;background-color: hsl(0, 0%, 9%);display: flex;justify-content: center;align-items: end;gap: 0.2rem;font-size: 4rem;font-family: 'Tiny5';cursor: default; transform: translateX(3%); transition: background-color 0.3s ease;}
+  #port-box-primary-main-tag-tag-hi {color: hsl(312, 100%, 70%); transition: transform 0.5s ease, color 0.3s ease;}
+  #port-box-primary-main-tag-tag-im {color: hsl(0, 0%, 83%); transition: transform 0.5s ease, color 0.3s ease;}
+  #port-box-primary-main-tag-tag-kuri {color: hsl(0, 0%, 83%); transition: transform 0.5s ease, color 0.3s ease;}
+  #port-box-primary-bio {transition: background-color 0.3s ease; border-radius: 10px; height: 5.5rem; width: 20.2rem; background-color: hsl(0, 0%, 9%); position: absolute; align-self: flex-end; display: flex; justify-content: center; align-items: center; transform: translateY(-3rem) translateX(11.60rem); font-family: 'Jersey 10';} 
+  #port-box-primary-bio-p {transition: color 0.3s ease, font-size 0.3s ease; cursor: default; color: hsl(0, 0%, 83%); height: 5rem; width: 16rem; display: flex; justify-content: center; align-items: center; font-size: 1rem;}
+  .port-bio-unique-tag {color: hsl(312, 100%, 70%);}
+  #port-box-primary-socials {text-decoration: none; height: 2rem; width: 31.2rem; background-color: hsl(0, 0%, 9%); position: absolute; bottom: 0; transform: translateY(1.5rem);border-radius: 5px;padding-left: 5px;padding-right: 5px;display: flex;justify-content: center;align-items: center;gap: 10px;}
+  .port-box-primary-socials-app {height: 1.5rem;width: 5rem;background-color: hsl(0, 0%, 9%);font-family: 'Jersey 10';padding-left: 0.3rem;padding-right: 0.3rem;color: hsl(0, 0%, 83%);cursor: pointer;display: flex;justify-content: center;align-items: center;border-radius: 5px;}
+  #port-box-primary-socials-discord {text-decoration: none; color: hsl(0, 0%, 83%);transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;}
+  #port-box-primary-socials-github {text-decoration: none;color: hsl(0, 0%, 83%);transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;}
+  #port-box-primary-socials-ig {text-decoration: none;color: hsl(0, 0%, 83%);transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;}
+  #port-box-primary-socials-src {text-decoration: none;color: hsl(0, 0%, 83%);transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;}
+  #port-box-primary-socials-yt {text-decoration: none;color: hsl(0, 0%, 83%);transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;}
+  #port-box-secondary {background-color: transparent;height: 14rem;width: 25rem;right: 0;position: absolute;margin-right: 2rem;display: grid;}
+  #port-box-secondary-maininfo {background-color: transparent;width: 25rem;height: 8.6rem;border-radius: 10px;background-color: hsl(0, 0%, 9%);display: flex;justify-content: top;align-items: center;flex-direction: column;transition: background-color 0.3s ease;gap: 7px;font-family: "Pixelify Sans";cursor: default;}
+  #port-box-secondary-maininfo-project-1 {color: hsl(0, 0%, 83%);transition: color 0.3s ease, transform 0.3s ease;}
+  #port-box-secondary-maininfo-title {margin-top: 0.3rem;margin-top: 10px;color: black;padding-left: 5px;padding-right: 5px;border-radius: 5px;background-color: hsl(312, 100%, 70%);transition: background-color 0.3s ease;}
+  #port-box-secondary-tags-box-1 {background-color: transparent;width: 25rem;height: 5rem;align-self: flex-end;display: flex;gap: 0.3rem;}
+  #port-box-secondary-tags-box-1-a {background-color: hsl(0, 0%, 9%);color: hsl(0, 0%, 90%);width: 12.5rem;height: 5rem;border-radius: 10px;display: flex;flex-direction: column;align-items: center;justify-content: center;font-family: 'Pixelify Sans'; cursor: default; transition: background-color 0.2s ease;}
+  #port-box-secondary-tags-box-1-b {background-color: hsl(0, 0%, 9%);color: hsl(0, 0%, 90%);width: 12.5rem;height: 5rem;border-radius: 10px;display: flex;flex-direction: column;align-items: center;justify-content: center;font-family: 'Pixelify Sans'; cursor: default; transition: background-color 0.2s ease;}
+  #port-box-primary-main-tag-tag-hi:hover {transform: translateY(-10%); color: hsl(312, 100%, 80%);}
+  #port-box-primary-main-tag-tag-im:hover {transform: translateY(-10%); color: hsl(312, 100%, 80%);}
+  #port-box-primary-main-tag-tag-kuri:hover {transform: translateY(-10%); color: hsl(312, 100%, 80%);}
+  #port-box-primary-bio-p:hover {color: hsl(312, 100%, 80%);}
+  #port-box-primary-bio:hover {background-color: hsla(0, 0%, 100%, 0.1);}
+  #port-box-primary-socials-discord:hover {background-color: rgb(100, 63, 248); color: hsl(0, 0%, 90%); transform: scale(1.05);}
+  #port-box-primary-socials-github:hover {background-color: rgb(125, 125, 125); color: black; transform: scale(1.05);}
+  #port-box-primary-socials-yt:hover {background-color: rgb(246, 22, 22); color: hsl(0, 0%, 90%); transform: scale(1.05);}
+  #port-box-primary-socials-ig:hover {background-color: rgb(249, 120, 202); color: hsl(0, 0%, 90%); transform: scale(1.05);}
+  #port-box-primary-socials-src:hover {background-color: rgb(12, 248, 118); color: black; transform: scale(1.05);}
+  #port-box-secondary-tags-box-1-a:hover {background-color: hsla(0, 0%, 100%, 0.1);}
+  #port-box-secondary-tags-box-1-b:hover {background-color: hsla(0, 0%, 100%, 0.1);}
+  #port-box-secondary-maininfo:hover {background-color: hsla(0, 0%, 100%, 0.1);}
+  #port-box-secondary-maininfo-title:hover {background-color: hsl(312, 100%, 80%);}
+  #port-box-secondary-maininfo-project-1:hover {color: hsl(307, 100%, 81%);}
+  #port-box-primary-main-tag:hover {background-color: hsla(0, 0%, 100%, 0.1);}
+  #port-box-primary-avatar:hover {background-color: hsla(0, 0%, 100%, 0.1);}
+
+  #discord {color: hsl(252, 93%, 61%); cursor: pointer;}
+  #gsap {display: inline-block; color: hsl(139, 96%, 53%); transition: color 0.3s ease, transform 0.3s ease; cursor: pointer;}
+  #frontEnd {color: hsl(0, 0%, 83%); transition: color 0.3s ease, transform 0.3s ease;}
+  #artist {color: hsl(0, 0%, 83%); transition: color 0.3s ease, transform 0.3s ease;}
+  #designer {color: hsl(0, 0%, 83%); transition: color 0.3s ease, transform 0.3s ease;}
+  #html {display: inline-block; color: hsl(0, 0%, 83%); transition: color 0.3s ease, transform 0.3s ease;}
+  #css {display: inline-block; color: hsl(0, 0%, 83%); transition: color 0.3s ease, transform 0.3s ease;}
+  #js {display: inline-block; color: hsl(0, 0%, 83%); transition: color 0.3s ease, transform 0.3s ease;}
+  #mc {height: 10rem; cursor: pointer; transition: transform 0.3s ease;}
+  #wotb {height: 10rem; cursor: pointer; transition: transform 0.3s ease;}
+  .star { color: #FFD700;font-size: 1rem;}
+  #frontEnd:hover {color: hsl(307, 100%, 81%);}
+  #artist:hover {color: hsl(307, 100%, 81%);}
+  #designer:hover {color: hsl(307, 100%, 81%);}
+  #html:hover {color: hsl(307, 100%, 81%);}
+  #css:hover {color: hsl(307, 100%, 81%);}
+  #js:hover {color: hsl(307, 100%, 81%);}
+  #avt {height: 10rem; transition: transform 0.3s ease;}
+  #avt:hover {transform: scale(1.02);}
+  #open {opacity: 0;font-family: 'tiny5';position: absolute;transform: translateX(9rem);}
+
+  .music-item {display: flex;align-items: center;gap: 10px;padding: 8px;background: rgba(255, 255, 255, 0.03);border-radius: 6px;flex-shrink: 0;transition: background-color 0.3s ease;}
+  .music-text a {color: white !important;font-family: 'Google Sans', sans-serif; font-size: 0.8rem;text-decoration: none;font-weight: 1000;line-height: 1.2;}
+  .music-item img {width: 60px;height: 45px;object-fit: cover;border-radius: 4px;}
+  #music-panel {height: 15rem; width: 47%;background-color: hsl(0, 0%, 9%);border-radius: 10px;display: flex;overflow: hidden; justify-content: center;align-items: center;}
+  #music-panel-title {position: absolute;font-family: 'Pixelify Sans';transform: translateY(-6.7rem);color: hsl(0, 0%, 90%);height: fit-content;width: fit-content;padding-left: 5px;padding-right: 5px;border-radius: 5px;font-weight: 1000;cursor: default; transition: color 0.3s ease;}
+  #music-panel-content {height: 12.8rem; transform: translateY(0.5rem);  width: 99%; display: flex;flex-direction: column;gap: 8px;padding: 10px;box-sizing: border-box; background-color: tra; overflow: auto;border-radius: 5px;background-color: transparent;}
+  #music-panel-content {scrollbar-width: thin;scrollbar-color: rgba(255, 255, 255, 0.3) transparent;}
+  #music-panel-title:hover {color: hsl(312, 100%, 80%);}
+  .music-item:hover {background: rgba(255, 255, 255, 0.1);}
+  #music-panel-last-fm {display: flex; justify-content: center; align-items: center; height: 13rem;width: 27rem;transform: translateY(0.6rem);margin-left: 0.5rem;margin-right: 0.5rem;background-color: rgba(255, 255, 255, 0.03);border-radius: 10px;}
+
+  #games-panel {height: 15rem;width: 47%;background-color: hsl(0, 0%, 9%);border-radius: 10px;display: flex;justify-content: center;align-items: center;}
+  #games-panel-title {position: absolute;transform: translateY(-6.5rem);font-weight: 1000;font-family: "Pixelify Sans";color: hsl(0, 0%, 90%); transition: color 0.3s ease; cursor: default;} 
+  #games-panel-content {flex-shrink: 0; height: 12.3rem; width: 95%;background-color: transparent;border-radius: 5px;align-self: flex-end;margin-bottom: 10px;display: flex;gap: 0.7rem; overflow-x: auto; overflow-y: hidden; &::-webkit-scrollbar {display: none;}}
+  .games-panel-content-class {height: 12.3rem;width: 8.5rem;background-color: aqua;border-radius: 5px; flex-shrink: 0; position: relative;}
+  #games-panel-content-1 {transition: background-color 0.3s ease, transform 0.3s ease; opacity: 1;overflow: hidden;display: flex;justify-content: center;background-color: hsl(0, 0%, 12%);}
+  #games-panel-content-2 {opacity: 1;overflow: hidden;display: flex;justify-content: center;background-color: hsl(0, 0%, 12%);transition: background-color 0.3s ease, transform 0.3s ease;}
+  #games-panel-content-1-img {height: 10rem;width: 85%;background-color: hsl(0, 0%, 14%);margin-top: 0.4rem;border-radius: 5px;display: flex;justify-content: center;align-items: center;overflow: hidden;}
+  #games-panel-content-2-img {height: 10rem;width: 85%;background-color: hsl(0, 0%, 14%);margin-top: 0.4rem;border-radius: 5px;display: flex;justify-content: center;align-items: center;overflow: hidden;}
+  #games-panel-title:hover {color: hsl(307, 100%, 81%);}
+  #games-panel-content-1:hover {background-color: hsl(0, 0%, 16%); transform: translateY(-5px);}
+  #games-panel-content-2:hover {background-color: hsl(0, 0%, 16%); transform: translateY(-5px);}
+  .games-panel-content-class:hover img {transform: scale(1.1);}
+
+  .span-class-container {height: 1.2rem;width: 6rem;position: absolute;transform: translateY(10.8rem);border-radius: 3px;justify-content: center;align-items: center;display: flex;font-family: 'Tiny5';color: hsl(0, 0%, 90%);cursor: default;}
+  .span-class-container:has(.games-panel-content-class:hover) {background-color: hsl(0, 0%,20%);}
+
+  #anime-panel-title {position: absolute;top: -1.5rem;font-family: 'Pixelify Sans';color: hsl(0, 0%, 90%);font-weight: 1000;font-size: 1.2rem;cursor: default;transition: color 0.3s ease;background-color: hsl(0, 0%, 9%);padding: 0 10px;border-radius: 5px;background-color: hsl(0, 0%, 9%);transform: translateY(1.6rem); z-index: 100;}
+  #anime-content-container {width: 98%;height: 13rem;display: flex;gap: 1rem;overflow-x: auto;overflow-y: hidden;padding-bottom: 10px;background-color:  transparent;align-items: center;}
+  .anime-card {flex-shrink: 0;width: 9rem;height: 11rem;background-color: hsl(0, 0%, 12%);transform: translateY(0.3rem);border-radius: 8px;text-decoration: none;overflow: hidden;position: relative;transition: transform 0.3s ease, background-color 0.3s ease;display: flex;flex-direction: column;}
+  .anime-card:hover {transform: translateY(-5px);background-color: hsl(0, 0%, 16%);}
+  .anime-img-wrapper {width: 90%;height: 11rem; overflow: hidden;margin-top: 0.5rem;align-self: center;justify-content: center;border-radius: 10px;}
+  .anime-img-wrapper img {width: 100%;height: 100%;object-fit: cover;transition: transform 0.3s ease;}
+  .anime-info {height: 4rem; display: flex;flex-direction: column;justify-content: center; align-items: flex-start;padding: 0 10px;background-color: transparent;}
+  .anime-name {color: hsl(0, 0%, 90%);font-family: 'Tiny5', sans-serif;font-size: 1rem;text-align: left;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: 100%;margin-bottom: 2px; font-weight: 100;}
+  .anime-score {color: hsl(0, 0%, 90%);font-family: 'Tiny5', sans-serif;font-size: 0.9rem;display: flex;align-items: center;gap: 4px;}
+  .anime-card:hover .anime-img-wrapper img {transform: scale(1.1);}
+  #anime-panel-title:hover {color: hsl(312, 100%, 80%);}
+
+  .lfm-featured { flex-direction: row-reverse;justify-content: space-between;margin-top: 0.5rem; align-self: flex-start; display: flex;height: 50%;width: 95%;background-color: transparent;border-radius: 8px;padding: 8px;box-sizing: border-box;align-items: center;gap: 12px;transition: background-color 0.3s ease;}
+  .lfm-featured:hover {background-color: rgba(255, 255, 255, 0.08);}
+  .lfm-feat-info {display: flex;flex-direction: column;justify-content: center;overflow: hidden;width: auto;text-align: left;height: 5rem;}
+  .lfm-feat-img {width: 5rem;height: 5rem;object-fit: cover;border-radius: 5px;justify-content: space-between;}
+  .lfm-status {font-family: 'Tiny5', sans-serif;font-size: 0.8rem;margin-bottom: 2px;text-transform: uppercase;opacity: 0.8;}
+  .lfm-status.playing {color: hsl(312, 100%, 70%);text-shadow: 0 0 5px rgba(239, 107, 204, 0.4);animation: pulse 2s infinite;}
+  .lfm-status.offline {color: hsl(0, 0%, 90%);}
+  .lfm-feat-title {font-family: 'tiny5', sans-serif;color: white;font-weight: 700;font-size: 1rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;line-height: 1.2;}
+  .lfm-feat-artist {font-family: 'Pixelify sans', sans-serif;color: hsl(0, 0%, 83%);font-size: 0.85rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+  .lfm-list {display: flex;flex-direction: column;height: 50%;justify-content: space-between;}
+  .lfm-item {display: flex;align-items: center;height: 30%;gap: 10px;padding: 0 5px;border-radius: 4px;}
+  .lfm-item img {height: 100%;aspect-ratio: 1/1;border-radius: 3px;object-fit: cover;}
+  .lfm-item-info {display: flex;flex-direction: column;justify-content: center;overflow: hidden;width: 100%;background-color: #FFD700;}
+  .lfm-item-title {font-family: 'tiny5', sans-serif;font-size: 0.8rem;color: hsl(0, 0%, 98%);white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+  .lfm-item-artist {font-family: 'pixelify sans', sans-serif;font-size: 0.75rem;color: hsl(0, 0%, 90%);opacity: 0.7;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+  .lfm-history-list {transform: translateY(4rem) translateX(-3.5rem); padding: 0px; color: white; font-size: 0.9em; line-height: 1.6; position: absolute;}
+
+  #anime-content-container::-webkit-scrollbar{height:8px;}
+  #anime-content-container::-webkit-scrollbar-track{background:transparent;}
+  #anime-content-container::-webkit-scrollbar-thumb{background-color:rgba(255,255,255,0.3);border-radius:20px;}
+  #anime-content-container::-webkit-scrollbar-thumb:hover{background-color:rgba(255,255,255,0.5);}
+
+  #music-panel-content::-webkit-scrollbar{width:12px;}
+  #music-panel-content::-webkit-scrollbar-track{background:transparent;}
+  #music-panel-content::-webkit-scrollbar-thumb{background-color:rgba(255,255,255,0.3);border-radius:20px;border:3px solid transparent;background-clip:content-box;}
+  #music-panel-content::-webkit-scrollbar-thumb:hover{background-color:rgba(255,255,255,0.5);}
+
+  body::-webkit-scrollbar{width:12px;}
+  body::-webkit-scrollbar-track{background:hsl(0, 0%, 5%);}
+  body::-webkit-scrollbar-thumb{background-color:rgba(255,255,255,0.3);border-radius:20px;border:3px solid transparent;background-clip:content-box;}
+  body::-webkit-scrollbar-thumb:hover{background-color:rgba(255,255,255,0.5);}
+
+  #navbar-closeBtn {width: 7.0rem;border-radius: 5px;height: 1rem;background-color: hsla(312, 100%, 80%, 0.824);position: absolute;transform: translateY(6.5rem);opacity: 0;pointer-events: auto;transition: background-color 0.3s ease;display: flex;justify-content: center;align-items: center;font-family: 'tiny5';cursor: pointer;}
+  #navbar-webTag {position: absolute;background-color: transparent;margin-left: 1.5rem;height: 5rem;width: 8rem;display: flex;align-items: center;justify-content: center;font-size: 2.5rem;font-family: 'tiny5';}
+  #navbar-closeBtn:hover {background-color: hsla(312, 100%, 85%, 0.985);}
+  #navbar {width: 20rem; /* 35rem */height: 1rem; /* 5rem  */background-color: rgba(255, 148, 234, 0.950);border-radius: 0px 0px 10px 10px;pointer-events: auto;transition: background-color 0.3s ease;cursor: pointer;overflow: hidden;;}
+  #navbar-LightDarkModeToggle {position: absolute;height: 5rem;width: 10rem;background-color: transparent;transform: translateX(34.5rem);display: flex;justify-content: center;align-items: center;}
+  #navbar-LightDarkModeToggle-btnContainer {height: 4rem;width: 9.5rem;background-color: hsla(312, 100%, 83%, 0.900);border-radius: 10px;display: flex;justify-content: center;align-items: center;opacity: 0;transform: translateY(5rem);}
+  #navbar-expandBtn {height: 4rem;width: 4rem;background-color: hsla(312, 100%, 83%, 0.900);position: absolute;display: flex;align-items: center;justify-content: center;transform: translateX(30rem) translateY(-5rem);border-radius: 10px;font-family: 'tiny5';font-size: 0.8rem;transition: color 0.3s ease, background-color 0.3s ease;opacity: 0;}
+  #navbar-expandBtn:hover {background-color: hsl(0, 0%, 17%);color: #efefef;}
+
+  #alpha-w {display: inline-block;transform: translateY(4rem);opacity: 0;}
+  #alpha-a {display: inline-block;transform: translateY(3.5rem);opacity: 0;}
+  #alpha-f {display: inline-block;transform: translateY(3rem);opacity: 0;}
+  #alpha-f-2 {display: inline-block;transform: translateY(2.5rem);opacity: 0;}  
+  #alpha-dot {display: inline-block;transform: translateY(2rem);opacity: 0;}
+  #alpha-m {display: inline-block;transform: translateY(1.5rem);opacity: 0;}
+  #alpha-e {display: inline-block;transform: translateY(1rem);opacity: 0;}
+
+  #dark-mode, #light-mode {height: 3.5rem;width: 4.3rem;background-color: transparent;border-radius: 10px;transition: background-color 0.3s ease;pointer-events: auto;display: flex;justify-content: center;align-items: center;z-index: 30;  position: relative;cursor: pointer;}
+  #sun, #moon {z-index: 40;position: relative; display: flex;justify-content: center;align-items: center;}
+  #theme-toggle-layer {height: 3.5rem;width: 4.3rem;background-color: hsl(0, 0%, 17%);border-radius: 10px;transform: translateX(-2.3rem);transition: all 0.3s ease;pointer-events: auto;cursor: pointer;z-index: 20; position: absolute;}
+
+  @keyframes pulse {0% { opacity: 1; }50% { opacity: 0.6; }100% { opacity: 1; }}
+
+  #container-anime {width: 96%;margin: 0 auto;height: 15rem; background-color: hsl(0, 0%, 9%);border-radius: 10px;transform: translateY(7rem);display: flex;flex-direction: column;justify-content: center;align-items: center;position: relative;margin-bottom: 10rem;}
+  #container-port {width: 100%;height: 12rem;background-color: transparent;transform: translateY(10%);display: flex;}
+  #games-and-music-panel {height: 15rem;width: 100;background-color: transparent;transform: translateY(35%);display: flex;align-items: center;justify-content: center;gap: 2%;}
+  #container-navbar {width: 100%;height: 1rem;top: 0;position: fixed;display: flex;justify-content: center;align-items: center;z-index: 100;pointer-events: none;}
+  #container-other {height: 100%;width: 30%; position: fixed;bottom: 0;display: flex;justify-content: flex-start;align-items: center;pointer-events: none;}
+
+  /* indev */
+
+  #others-panel-battery {position: relative;display: flex;align-items: center;justify-content: center;width: 3.5rem;height: 3.5rem;cursor: default;}
+  #others-panel-battery:hover #fill {background-color: hsl(0, 0%, 25%);}
+  #others-panel-battery:hover #battery-text {color: #ffffff !important;}
+  #others-panel-close {height: 1rem;border-radius: 5px 5px 15px 5px;font-size: small;font-family: 'tiny5';cursor: pointer;}
+  .others-panel-class-1:hover {background-color: hsl(0, 0%, 17%);transform: scale(1.07);color: #efefef;}
+
+  #others-panel {transform: translateX(-10rem); width: 4.5rem;height: fit-content;background-color: rgba(255, 148, 234, 0.950);bottom: 0;border-radius: 0px 20px 20px 0px;display: flex;justify-content: center;align-items: center;padding-top: 0.5rem;padding-bottom: 0.5rem;flex-direction: column;gap: 0.5rem;pointer-events: auto;}
+
+  .others-panel-class-1 {cursor: pointer; width: 3.5rem;height: 3.5rem;background-color: hsla(312, 100%, 83%, 0.900);border-radius: 10px;display: flex;align-items: center;justify-content: center;transition: background-color 0.3s ease, transform 0.3s ease, width 0.3s ease, color 0.3s ease;}
+
+  #battery-fill {height: 3rem;width: 3rem;background-color: transparent;border-radius: 10px;overflow: hidden;display: flex;}
+  #fill {width: 100%;height: 1%;align-self: flex-end;background-color: hsla(312, 100%, 90%, 0.900);}
+  #battery-text {display: flex;align-items: center;justify-content: center;position: absolute;font-family: 'tiny5';color: #000000;gap: 3px;cursor: default;}
+}
